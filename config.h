@@ -2,8 +2,8 @@
 static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"", "${HOME}/.local/bin/statusbar/date", 60, 1},
-    {"", "${HOME}/.local/bin/statusbar/battery", 15, 3},
-    /* {"", "${HOME}/.local/bin/statusbar/volume", 0, 44}, */
+    {"", "${HOME}/.local/bin/statusbar/battery", 30, 3},
+    {"", "${HOME}/.local/bin/statusbar/volume", 0, 10},
 };
 
 // Sets delimiter between status commands. NULL character ('\0') means no delimiter.
