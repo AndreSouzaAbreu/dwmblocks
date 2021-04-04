@@ -1,9 +1,9 @@
 // Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-    {"", "${HOME}/.local/bin/statusbar/date", 60, 1},
-    {"", "${HOME}/.local/bin/statusbar/battery", 30, 3},
-    {"", "${HOME}/.local/bin/statusbar/volume", 0, 10},
+    {"", "${HOME}/.local/scripts/statusbar/date", 60, 1},
+    {"", "${HOME}/.local/scripts/statusbar/battery", 30, 3},
+    {"", "${HOME}/.local/scripts/statusbar/volume", 0, 10},
 };
 
 // Sets delimiter between status commands. NULL character ('\0') means no delimiter.
